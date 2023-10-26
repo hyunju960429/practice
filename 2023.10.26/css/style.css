@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+.clear::after {
+    content:"" ;
+    display: block;
+    clear: both;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+
+header {
+    position: relative;
+    background-color: #7E57C2;
+    height: 50px;
+}
+header img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .menu_Icon_left {
+    left: 25px;
+}
+header .menu_Icon_right {
+    right: 25px;
+}
+header h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    line-height: 50px;
+}
+
+
+
+
+
+/* -------------index-------- */
+.wrap {
+    position: relative;
+}
+.page1 {
+    margin: 0 auto;
+    text-align: center;
+}
+.page1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+.page1 h2 {
+    padding-top: 134px;
+    font-size: 32px;
+    line-height: 52px;
+    color: #fff;
+}
+.page1 h4 {
+    color: #fff;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 34px;
+    padding: 127px 39px 0 39px;
+}
+
+.page1 .btn {
+    padding: 119px 25px 42px 25px;
+}
+.page1 .btn div {
+    margin: 0 auto;
+    /* width: 325px; */
+    background-color: #7E57C2;
+    margin-bottom: 25px;
+}
+.page1 .btn div a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px;
+}
+
+
+
+/* -------------Shop_Categories----------- */
+.shop_slide img {
+    width: 100%;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slick-dots li {
+    float: left;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 3px solid #7E57C2;
+    box-sizing: border-box;
+}
+.slick-dots li button {
+    visibility: hidden;
+}
+.slick-dots li.slick-active {
+    background-color: #7E57C2;
+}
+/* shop_list */
+.shop_list {
+    padding: 25px;
+}
+.shop_list div {
+    width: 150px;
+    float: left;
+    margin: 0 25px 25px 0;
+}
+.shop_list div:nth-child(2n) {
+    margin-right: 0;
+}
+.shop_list div img {
+    width: 100%;
+}
+.shop_list div h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #757575;
+}
+.shop_list div h4 {
+    font-size: 13px;
+    line-height: 21px;
+    color: #757575;
+}
+
+
+
+
+
+
+/* -------Shop----------- */
+.Top_product {
+    position: relative;
+    padding: 30px 25px 0 0;
+}
+.Top_product  img {
+    width: 100%;
+}
+
+.info {
+    position: absolute;
+    left: 50px;
+    right: 0;
+    bottom: -37px;
+    padding: 10px 30px 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+}
+.info h2 {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+.info .desc {
+}
+.info .desc .price {
+    color: #7E57C2;
+}
+.info .desc .rate {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    color: #7E57C2;
+}
+.info .desc .rate i {}
+
+/* shop_product */
+.shop_product {
+    padding: 67px 0 0 25px;
+    overflow: hidden;
+}
+.shop_product .product_list {
+    width: 500px;
+}
+.shop_product .product_list .slide {
+    float: left;
+    width: 125px;
+    margin-right: 25px;
+}
+.shop_product .product_list .slide img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.shop_product .product_list .slide h3 {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.shop_product .product_list .slide h4 {
+    color: #7E57C2;
+}
